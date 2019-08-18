@@ -17,3 +17,7 @@ $ javac -classpath .:classes:/opt/pi4j/lib/'*' ...
 ###    Run   ###
 ----------------
 $ sudo java -classpath .:classes:/opt/pi4j/lib/'*' ...
+
+or
+
+$ /usr/bin/java -classpath .:classes:/opt/pi4j/lib/'*':/home/pi/Java/LEDServer BasicServer
