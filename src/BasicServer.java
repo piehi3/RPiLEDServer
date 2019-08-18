@@ -109,7 +109,7 @@ public class BasicServer extends Thread{
         rgb[1] = Integer.parseInt(raw_input.substring(3,6));
         rgb[2] = Integer.parseInt(raw_input.substring(6,9));
 
-        LEDController.setLED((int)(rgb[0]/255),(int)(rgb[1]/255),(int)(rgb[2]/255));
+        LEDController.setLED((int)(rgb[0]*100/255),(int)(rgb[1]*100/255),(int)(rgb[2]*100/255));
 
     }
 
