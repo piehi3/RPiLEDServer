@@ -2,9 +2,9 @@ import com.pi4j.io.gpio.*;
 import com.pi4j.platform.PlatformAlreadyAssignedException;
 
 public class LEDController {
-    private static final Pin RED_PIN = RaspiPin.GPIO_02;//pinlayouts as gpio numbers
+    private static final Pin RED_PIN = RaspiPin.GPIO_07;//pinlayouts as gpio numbers
     private static final Pin GREEN_PIN = RaspiPin.GPIO_03;
-    private static final Pin BLUE_PIN = RaspiPin.GPIO_04;
+    private static final Pin BLUE_PIN = RaspiPin.GPIO_21;
 	
 	private static GpioController gpio;
 	
