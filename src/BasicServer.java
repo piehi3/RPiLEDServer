@@ -28,6 +28,7 @@ public class BasicServer extends Thread{
 			LEDController.setup();
 		}catch(InterruptedException ie){
 			ie.printStackTrace();
+			return:
 		}
         while(true){
             try{
