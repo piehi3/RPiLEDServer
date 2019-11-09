@@ -65,7 +65,6 @@ public class BasicServer extends Thread{
                     break;
             }catch (SocketTimeoutException s){
                 System.out.println("Socket timed out!");
-                break;
             }catch (IOException e){
                 e.printStackTrace();
             }
